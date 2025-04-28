@@ -4,13 +4,16 @@
 }
 
 .navbar-body{
-    width: screen;
+    width: 100%;
     height: static;
     /* border: 2px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,45,45,1) 65%, rgba(181,42,47,0.8) 100%);
+    position: fixed;
+    z-index: 10000;
+    
 }
 
 .navbar-box{
@@ -72,7 +75,7 @@
 
 .portfolio-body{
     /* border: 1px solid red; */
-    width: screen;
+    width: 100%;
     height: static;
     padding-block: 20px;
     display: flex;
@@ -80,6 +83,8 @@
     justify-content: center;
     align-items: center;
     gap: 40px;
+    padding-top: 120px;
+   
 }
 
 .portfolio-heading{
