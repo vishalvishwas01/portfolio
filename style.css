@@ -28,7 +28,7 @@
 
 .navbar-logo-box{
     height: 100px;
-    width: 50%;
+    width: 25%;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -62,19 +62,36 @@
 
 .navbar-name-box{
     height: 100px;
-    width: 50%;
+    width: 75%;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 28px;
+    gap: 20px;
+    
     color: white;
     font-family: sans-serif;
     /* border: 2px solid blue; */
 }
+@media(max-width:410px){
+    .navbar-name-box{
+        gap: 15px;
+    }
+}
+.navbar-name{
+    /* border: 2px solid red; */
+    cursor:pointer;
+    font-size: 28px;
+}
+@media(max-width:630px){
+    .navbar-name{
+        font-size: 18px;
+    }
+}
+
 
 
 .portfolio-body{
-    /* border: 1px solid red; */
+    border: 2px solid red;
     width: 100%;
     height: static;
     padding-block: 20px;
